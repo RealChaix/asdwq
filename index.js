@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TAO Studios</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <link rel="icon" href="https://i.imgur.com/s7mpbPZ.png" type="image/png">
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="logo">TAO Studios</div>
+        <nav class="nav-links">
+            <a href="#about">Hakkımızda</a>
+            <a href="#team">Ekip</a>
+            <a href="#games">Oyunlar</a>
+            <a href='/wiki'>Wiki</a> 
+            <a href="https://discord.com/invite/taoarmy" target="_blank" class="btn btn-discord">Discord'a Katıl</a>
+        </nav>
+    </header>
+
+    <main>
+        
+        <section class="hero-section section-padding">
+            <div class="hero-content">
+                <p class="subtitle">Roblox Türkiye'nin Sevilenı</p>
+                <h1 class="title">
+                    <span class="gradient-text">Sevdiğimiz oyunları</span>
+                    <br>
+                    birlikte inşa ediyoruz.
+                </h1>
+                <p class="description">
+                    Mahkeme ve disiplin eğitimlerinden roleplay oyunlarına kadar; TAO Studios
+                    oyuncu odaklı ve topluluğunun desteklediği projeleri geliştirir.
+                </p>
+                <div class="actions">
+                    <a href="#games" class="btn btn-primary">Oyunları Keşfet</a>
+                    <a class='btn btn-secondary' href='/wiki'>Wikilerimiz/Bloglarımız</a>
+                </div>
+            </div>
+            <div class="hero-image-container">
+                <img src="https://i.imgur.com/7whzUIO.png" alt="TAO Studios Görseli" class="hero-image">
+            </div>
+        </section>
+        
+        <section id="about" class="about-section section-padding">
+            <div class="section-header">
+                <h2 class="section-title">Biz Kimiz</h2>
+                <p class="section-info">2022'den beri toplulukla büyüyen bir stüdyo.</p>
+            </div>
+            
+            <div class="philosophy-grid">
+                <div class="card">
+                    <h3>Oyuncu Odaklı</h3>
+                    <p>Kararlarımızı istatistikler ve topluluk geri bildirimi yönlendirir.</p>
+                </div>
+                <div class="card">
+                    <h3>Modüler Yapı</h3>
+                    <p>Aynı yapıdaki çekirdek (script) sistemlerimiz ile hızlı gelişen projeler.</p>
+                </div>
+                <div class="card">
+                    <h3>Topluluk</h3>
+                    <p>Discord ve sosyal kanallarda sürekli etkileşimdeyiz.</p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="games" class="games-section section-padding">
+             <div class="section-header">
+                <h2 class="section-title">Oyunlarımız</h2>
+                <p class="section-info">Aktif ve geliştirme aşamasındaki projelerimiz.</p>
+            </div>
+            
+            <div class="games-grid">
+                
+                <a href="game-update.html?id=v1-5-update" class="game-card">
+                    <span class="ta-badge">TAO</span>
+                    <div class="game-image-container">
+                        <img src="https://i.imgur.com/nLe4ppZ.png" alt="TAO V1.5 Güncelleme" class="game-image">
+                    </div>
+                    <div class="game-card-content">
+                        <h3 class="game-title">TAO - V1.5 Büyük Güncelleme</h3>
+                        <p class="game-description">2024 yılının en büyük harita ve sistem yeniliklerini içeren güncelleme.</p>
+                        <span class="game-tag">Güncelleme Notları</span>
+                    </div>
+                </a>
+                
+                <a href="game-update.html?id=arac-sistemi" class="game-card">
+                    <span class="ta-badge">TAO</span>
+                    <div class="game-image-container">
+                        <img src="https://i.imgur.com/3rgGfIL.png" alt="TAO Araç Sistemi" class="game-image">
+                    </div>
+                    <div class="game-card-content">
+                        <h3 class="game-title">TAO - Araç Sistemi</h3>
+                        <p class="game-description">Tamamen yenilenmiş, fizik tabanlı gelişmiş araç sistemi ve yeni araba modelleri.</p>
+                        <span class="game-tag">Sistem Yeniliği</span>
+                    </div>
+                </a>
+
+                <a href="game-update.html?id=brans-yenilikleri" class="game-card">
+                    <span class="ta-badge">TAO</span>
+                    <div class="game-image-container">
+                        <img src="https://i.imgur.com/Ke0jIk2.png" alt="TAO Branş Yenilikleri" class="game-image">
+                    </div>
+                    <div class="game-card-content">
+                        <h3 class="game-title">TAO - Branş Yenilikleri</h3>
+                        <p class="game-description">Tüm branşlar ve departmanlar için kapsamlı branş güncellemeleri.</p>
+                        <span class="game-tag">Roleplay</span>
+                    </div>
+                </a>
+
+                <a href="game-update.html?id=operasyon-sistemi" class="game-card">
+                    <span class="ta-badge">TAO</span>
+                    <div class="game-image-container">
+                        <img src="https://i.imgur.com/KbXxb3z.png" alt="TAO Operasyon Sistemi" class="game-image">
+                    </div>
+                    <div class="game-card-content">
+                        <h3 class="game-title">TAO - Operasyon Sistemi</h3>
+                        <p class="game-description">Ekibe özel, detaylı ve zorlayıcı Operasyon Sisteminin tanıtımı.</p>
+                        <span class="game-tag">Tanıtım</span>
+                    </div>
+                </a>
+                
+            </div>
+        </section>
+        
+        <section id="team" class="team-section section-padding">
+            <div class="section-header">
+                <h2 class="section-title">Ekiple Tanış</h2>
+                <p class="section-info">Geliştiren, tasarlayan, koşturan ekip.</p>
+            </div>
+            
+            <div class="team-grid">
+                
+                <div class="team-member-card">
+                    <div class="member-header">
+                        <img src="https://i.imgur.com/MS2LpBD.png" alt="samet avatar" class="member-avatar">
+                        <span class="role-badge">Founder</span>
+                    </div>
+                    <div class="member-info">
+                        <h4>samet</h4>
+                        <p class="username">@.samet_0</p>
+                    </div>
+                </div>
+                
+                <div class="team-member-card">
+                    <div class="member-header">
+                        <img src="https://i.imgur.com/xSQTcTZ.png" alt="sila avatar" class="member-avatar">
+                        <span class="role-badge">Lead Developer</span>
+                    </div>
+                    <div class="member-info">
+                        <h4>sila</h4>
+                        <p class="username">@devleti_osmaniye</p>
+                    </div>
+                </div>
+                
+                <div class="team-member-card">
+                    <div class="member-header">
+                        <img src="https://i.imgur.com/GNUshJO.png" alt="Yunm avatar" class="member-avatar">
+                        <span class="role-badge">Administrator</span>
+                    </div>
+                    <div class="member-info">
+                        <h4>Yunm</h4>
+                        <p class="username">@yunm12322</p>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+
+        </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-column">
+                <div class="footer-logo">TAO Studios</div>
+                <p>Roblox platformunda topluluk odaklı, yüksek kaliteli oyun deneyimleri yaratıyoruz.</p>
+            </div>
+            
+            <div class="footer-column">
+                <h5>Hızlı Linkler</h5>
+                <ul>
+                    <li><a href="#about">Biz Kimiz</a></li>
+                    <li><a href="#games">Oyunlarımız</a></li>
+                    <li><a href="#team">Ekibimiz</a></li>
+                    <li><a href='/wiki'>Wiki & Blog</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-column">
+                <h5>Destek</h5>
+                <ul>
+                    <li><a href="https://discord.com/invite/taoarmy" target="_blank">Discord Topluluğu</a></li>
+                    <li><a href="#">Gizlilik Politikası</a></li>
+                    <li><a href="#">Kullanım Şartları</a></li>
+                </ul>
+            </div>
+            
+        </div>
+        
+        <div class="footer-bottom">
+            &copy; 2024 TAO Studios. Tüm Hakları Saklıdır.
+        </div>
+    </footer>
+    
+</body>
+</html>
